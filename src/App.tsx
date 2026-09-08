@@ -6,6 +6,7 @@ import ProgramsPage from '@/pages/ProgramsPage';
 import ProgramDetailPage from '@/pages/ProgramDetailPage';
 import KindyProgramPage from '@/pages/KindyProgramPage';
 import SuperkidsProgramPage from '@/pages/SuperkidsProgramPage';
+import TeensProgramPage from '@/pages/TeensProgramPage';
 import TeachersPage from '@/pages/TeachersPage';
 import ResultsPage from '@/pages/ResultsPage';
 import ActivitiesPage from '@/pages/ActivitiesPage';
@@ -30,7 +31,7 @@ function App() {
         />
         <Route
           path="/chuong-trinh-hoc/tieng-anh-thieu-nien-11-15-tuoi"
-          element={<ProgramDetailPage programKey="thieu-nien" />}
+          element={<TeensProgramPage />}
         />
         <Route path="/doi-ngu" element={<TeachersPage />} />
         <Route path="/ket-qua" element={<ResultsPage />} />
