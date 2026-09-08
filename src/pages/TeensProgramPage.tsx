@@ -4,6 +4,10 @@ import LearningOutcomes from '@/components/programs/teens/LearningOutcomes';
 import TeachingMethod from '@/components/programs/teens/TeachingMethod';
 import LearningRoadmap from '@/components/programs/teens/LearningRoadmap';
 import MidPageCTA from '@/components/programs/teens/MidPageCTA';
+import TeensTestimonials from '@/components/programs/teens/TeensTestimonials';
+import TeacherPreview from '@/components/programs/teens/TeacherPreview';
+import LearningSpace from '@/components/programs/teens/LearningSpace';
+import FinalCTA from '@/components/home/FinalCTA';
 
 export default function TeensProgramPage() {
   return (
@@ -21,6 +25,10 @@ export default function TeensProgramPage() {
       <TeachingMethod />
       <LearningRoadmap />
       <MidPageCTA />
+      <TeensTestimonials />
+      <TeacherPreview />
+      <LearningSpace />
+      <FinalCTA />
     </>
   );
 }
