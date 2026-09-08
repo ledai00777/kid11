@@ -1,6 +1,9 @@
 import PageBanner from '@/components/shared/PageBanner';
 import CourseOverview from '@/components/programs/teens/CourseOverview';
 import LearningOutcomes from '@/components/programs/teens/LearningOutcomes';
+import TeachingMethod from '@/components/programs/teens/TeachingMethod';
+import LearningRoadmap from '@/components/programs/teens/LearningRoadmap';
+import MidPageCTA from '@/components/programs/teens/MidPageCTA';
 
 export default function TeensProgramPage() {
   return (
@@ -15,6 +18,9 @@ export default function TeensProgramPage() {
       />
       <CourseOverview />
       <LearningOutcomes />
+      <TeachingMethod />
+      <LearningRoadmap />
+      <MidPageCTA />
     </>
   );
 }
