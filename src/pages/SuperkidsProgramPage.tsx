@@ -4,6 +4,10 @@ import LearningOutcomes from '@/components/programs/superkids/LearningOutcomes';
 import TeachingMethod from '@/components/programs/superkids/TeachingMethod';
 import LearningRoadmap from '@/components/programs/superkids/LearningRoadmap';
 import MidPageCTA from '@/components/programs/superkids/MidPageCTA';
+import SuperkidsTestimonials from '@/components/programs/superkids/SuperkidsTestimonials';
+import TeacherPreview from '@/components/programs/superkids/TeacherPreview';
+import LearningSpace from '@/components/programs/superkids/LearningSpace';
+import FinalCTA from '@/components/home/FinalCTA';
 
 export default function SuperkidsProgramPage() {
   return (
@@ -22,6 +26,10 @@ export default function SuperkidsProgramPage() {
       <TeachingMethod />
       <LearningRoadmap />
       <MidPageCTA />
+      <SuperkidsTestimonials />
+      <TeacherPreview />
+      <LearningSpace />
+      <FinalCTA />
     </>
   );
 }
